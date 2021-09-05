@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: url("background.jpg") ;
+    
+}
+.container{
+    height: 150vh;
+    margin:20px 250px 0 250px;
+    background:rgba(255, 255, 255, 0.795) ;
+}
+.head{
+    height:180px;
+    background:rgb(198, 226, 230);
+}
+
+.nav{
+    padding-top:8px;
+    height:35px;
+    background: rgb(41, 41, 41);
+}
+.nav ul li{
+    display: inline-block;
+    padding: 4px 50px;
+    color:yellow;
+}
+.first h1{
+    position:absolute;
+    top:90px;
+    left:460px
+}
+.first p{
+    position:absolute;
+    top:125px;
+    left:460px;
+    color:rgb(110, 110, 110);
+}
+
+
+.first img{
+    position: relative;
+    top:10px;
+    left:10px;
+    height:150px;
+}
+.second img{
+    position:relative;
+    height:100px;
+    left:73%;
+    top:-103px
+}
+.second p{
+    position: relative;
+    left:80%;
+    top:-180px;
+    width:200px;
+    color:rgb(110, 110, 110);
+}
+.content marquee{
+    padding:20px;
+    color:rgb(12, 79, 180);
+    font-weight: bold;
+}
+.content h3{
+    position:relative;
+    left:60px;
+    padding:10px;
+    color:rgb(12, 79, 180);
+}
+
+.images img{
+    display:inline-block;
+    height:220px;
+    width: 250px;
+    padding: 20px 12px;
+}
+.container-box{
+    display:flex;
+    height:800px;
+    /* background:rgba(17, 19, 129, 0.459); */
+}
+
+.container-left{
+    display:inline-block;
+    height:100%;
+    box-sizing: border-box;
+    width:65%;
+    /* background:rgba(153, 205, 50, 0.555); */
+    padding: 100px 30px;
+}
+
+.container-right{
+    display:inline-block;
+    height:100%;
+    box-sizing: border-box;
+    width:35%;
+    /* background:rgba(200, 50, 205, 0.473); */
+    padding: 10px 0;
+}
+
+.container-right h4{
+    position: relative;
+    left:120px;
+    color:rgb(12, 79, 180);
+}
+.container-right img{
+    width:95%;
+    margin-top: 10px;
+}
+
+.btn{
+    position:sticky;
+    bottom:20px;
+    left:45%;
+}
+button{
+    height:60px;
+    width:200px;
+    border-radius:30px;
+    border:12px solid rgb(0, 0, 0);
+    box-shadow: rgba(196, 3, 3, 0.438) 0px 24px 38px,rgba(175, 4, 4, 0.39) 0px 10px 10px;
+    background:rgb(177, 1, 1);
+    cursor:pointer;
+    font-size:20px;
+    color:white;
+}
+
+
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+    color:white;
+    box-shadow: rgba(0, 0, 0, 0.534) 0px 24px 38px,rgba(0, 0, 0, 0.486) 0px 10px 10px;
+    border: solid red;
+}
